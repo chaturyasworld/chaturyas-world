@@ -150,7 +150,7 @@ export default function Home() {
 
       {/* Floating WhatsApp Button */}
       <a
-        href="https://wa.me/9505551266"
+        href="https://wa.me/+91 9505551266"
         target="_blank"
         style={{
           position: "fixed",
