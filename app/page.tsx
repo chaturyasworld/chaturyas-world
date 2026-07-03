@@ -8,7 +8,7 @@ export default function Home() {
 
           <div>
             <h2 style={{ color: "#E91E63" }}>Chaturya's World</h2>
-            <medium>Fancy & Gift Store</medium>
+            <h3>Fancy & Gift Store</h3>
           </div>
         </div>
 
