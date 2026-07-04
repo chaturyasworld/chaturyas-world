@@ -22,75 +22,47 @@ export default function Home() {
       </header>
 
       {/* Hero Section */}
-      <section id="home" className="hero">
-        <div className="container">
-          <h1></h1>
+<section id="home" className="hero">
+  <div className="container">
+    <h1
+      style={{
+        fontSize: "60px",
+        fontWeight: "bold",
+        marginBottom: "20px",
+      }}
+    >
+      Welcome to <br />
+      <span style={{ color: "#FFD700" }}>Chaturya's World</span>
+    </h1>
 
-          
-            
-          
+    <p
+      style={{
+        fontSize: "24px",
+        marginBottom: "15px",
+      }}
+    >
+      Your One-Stop Fancy & Gift Store
+    </p>
 
-          
-            
-      
-          
+    <p
+      style={{
+        fontSize: "18px",
+        marginBottom: "35px",
+        maxWidth: "750px",
+        margin: "0 auto 35px",
+        lineHeight: "1.8",
+      }}
+    >
+      Discover Teddy Bears, Fancy Items, Stationery, Customized Gifts,
+      Gift Articles, Keychains and many more beautiful products for
+      every special occasion.
+    </p>
 
-          
-            
-          
-        </div>
-      </section>
-            {/* Products Section */}
-      <section id="products">
-        <div className="container">
-          <h2 style={{ textAlign: "center", marginBottom: "40px" }}>
-            Our Products
-          </h2>
-
-          <div
-            style={{
-              display: "grid",
-              gridTemplateColumns: "repeat(auto-fit, minmax(300px,1fr))",
-              gap: "45px",
-            }}
-          >
-            {[
-              { img: "/teddy.png", title: "Teddy Bears" },
-              { img: "/fancy.png", title: "Fancy" },
-              { img: "/stationery.png", title: "Stationery" },
-              { img: "/customized.png", title: "customized gifts" },
-              { img: "/gifts.png", title: "Gift Articles" },
-              { img: "/keychain.png", title: "Keychains" },
-            ].map((item, index) => (
-              <div
-                key={index}
-                style={{
-                  background: "#fff",
-                  borderRadius: "15px",
-                  overflow: "hidden",
-                  boxShadow: "0 4px 12px rgba(0,0,0,0.1)",
-                  transition: "0.3s",
-                }}
-              >
-                <img
-                  src={item.img}
-                  alt={item.title}
-                  style={{
-                    width: "100%",
-                    height: "220px",
-                    objectFit: "cover",
-                  }}
-                />
-
-                <div style={{ padding: "20px", textAlign: "center" }}>
-                  <h3>{item.title}</h3>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
+    <a href="#products" className="btn">
+      Explore Products
+    </a>
+  </div>
+</section>
       {/* About */}
       <section id="about" style={{ background: "#fff" }}>
         <div className="container" style={{ textAlign: "center" }}>
