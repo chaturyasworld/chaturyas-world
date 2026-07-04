@@ -65,7 +65,7 @@ nav a:hover {
 .hero {
   height: 100vh;
   background: linear-gradient(rgba(0,0,0,.15), rgba(0,0,0,.15)),
-              url('/hero.png');
+              url('/hero.jpg');
   background-size: cover;
   background-position: center;
   color: white;
