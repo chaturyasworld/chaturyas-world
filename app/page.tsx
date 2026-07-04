@@ -32,7 +32,7 @@ export default function Home() {
 </nav>
 
       {/* ================= HERO SECTION ================= */}
-      <section
+      <section id="home">
         style={{
           height: "90vh",
           display: "flex",
@@ -52,7 +52,7 @@ export default function Home() {
           Your one-stop shop for toys, stationery, fancy items, gifts & more 💝
         </p>
 
-        <a
+        <
           href="#products"
           style={{
             marginTop: "20px",
@@ -63,8 +63,19 @@ export default function Home() {
             textDecoration: "none",
           }}
         >
-          Explore Products
-        </a>
+          Explore Products 
+          <a>    🧸 Toys   🎁 Gifts
+
+📚 Stationery
+
+🌸 Artificial Flowers
+
+💍 Fancy Items
+
+🔑 Keychains        </a>
+
+
+      
       </section>
 
       {/* ================= ABOUT SECTION ================= */}
