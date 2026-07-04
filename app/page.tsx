@@ -67,7 +67,7 @@
       flexDirection: "column",
       justifyContent: "center",
       alignItems: "flex-start",
-      paddingLeft: "80px",
+      paddingLeft: "180px",
       color: "white",
     }}
   >
@@ -77,7 +77,7 @@
         marginBottom: "20px",
       }}
     >
-      Welcome to Chaturyas World
+              Welcome to Chaturyas World
     </h1>
 
     <p
