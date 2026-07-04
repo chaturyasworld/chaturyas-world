@@ -8,6 +8,28 @@ export default function Home() {
 
   return (
     <div>
+      <nav
+  style={{
+    display: "flex",
+    justifyContent: "space-between",
+    alignItems: "center",
+    padding: "18px 40px",
+    background: "#ffffff",
+    position: "sticky",
+    top: 0,
+    zIndex: 1000,
+    boxShadow: "0 2px 8px rgba(0,0,0,0.1)",
+  }}
+>
+  <h2 style={{ color: "#ff4081" }}>Chaturya's World</h2>
+
+  <div style={{ display: "flex", gap: "25px" }}>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#products">Products</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
 
       {/* ================= HERO SECTION ================= */}
       <section
