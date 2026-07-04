@@ -80,8 +80,20 @@ nav a:hover {
   margin-bottom: 20px;
 }
 
-.hero p {
-  font-size: 22px;
+.hero {
+  height: 90vh;
+  background:
+    linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
+    url('/hero.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
 }
 
 .btn {
