@@ -67,7 +67,7 @@
       flexDirection: "column",
       justifyContent: "center",
       alignItems: "flex-start",
-      paddingLeft: "180px",
+      marginLeft: "80px",
       color: "white",
     }}
   >
