@@ -129,4 +129,18 @@ export default function Home() {
 
     </div>
   );
-}
+} 
+<a
+href="https://wa.me/919505551266"
+target="_blank"
+style={{
+position:"fixed",
+bottom:"20px",
+right:"20px",
+background:"#25D366",
+padding:"15px",
+borderRadius:"50%"
+}}
+>
+💬
+</a>
