@@ -84,7 +84,7 @@ nav a:hover {
   height: 90vh;
   background:
     linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
-    url('/hero.png');
+    url('/hero.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
