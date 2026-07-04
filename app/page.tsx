@@ -29,55 +29,85 @@
         </div>
       </nav>
        {/* Hero Section */}
-<section
+  <section
   id="home"
   style={{
-    height: "90vh",
-    display: "flex",
-    flexDirection: "column",
-    justifyContent: "center",
-    alignItems: "center",
-    textAlign: "center",
-    background: "linear-gradient(135deg, #ffe6f0, #e6f7ff)",
-    padding: "20px",
+    position: "relative",
+    height: "600px",
+    overflow: "hidden",
   }}
 >
-  <h1
+  {/* Background Image */}
+  <Image
+    src="/hero-banner.png"
+    alt="Hero Banner"
+    fill
+    priority
     style={{
-      fontSize: "50px",
-      color: "#ff4081",
-      marginBottom: "20px",
+      objectFit: "cover",
     }}
-  >
-    Welcome to Chaturyas World
-  </h1>
+  />
 
-  <p
+  {/* Overlay */}
+  <div
     style={{
-      fontSize: "20px",
-      maxWidth: "700px",
-      lineHeight: "1.8",
+      position: "absolute",
+      inset: 0,
+      background: "rgba(0,0,0,0.35)",
     }}
-  >
-    Toys • Stationery • Fancy Items • Artificial Flowers •
-    Return Gifts • Gift Articles
-  </p>
+  />
 
-  <a
-    href="#products"
+  {/* Text */}
+  <div
     style={{
-      marginTop: "30px",
-      padding: "15px 30px",
-      background: "#ff4081",
-      color: "#fff",
-      borderRadius: "30px",
-      textDecoration: "none",
-      fontWeight: "bold",
+      position: "relative",
+      zIndex: 1,
+      height: "100%",
+      display: "flex",
+      flexDirection: "column",
+      justifyContent: "center",
+      alignItems: "flex-start",
+      paddingLeft: "80px",
+      color: "white",
     }}
   >
-    Explore Products
-  </a>
-</section>
+    <h1
+      style={{
+        fontSize: "56px",
+        marginBottom: "20px",
+      }}
+    >
+      Welcome to Chaturyas World
+    </h1>
+
+    <p
+      style={{
+        fontSize: "22px",
+        maxWidth: "650px",
+        lineHeight: "1.8",
+      }}
+    >
+      Your One-Stop Destination for Toys, Stationery,
+      Fancy Items, Artificial Flowers,
+      Gift Articles & Return Gifts.
+    </p>
+
+    <a
+      href="#products"
+      style={{
+        marginTop: "30px",
+        background: "#ff4081",
+        color: "white",
+        padding: "15px 35px",
+        borderRadius: "30px",
+        textDecoration: "none",
+        fontWeight: "bold",
+      }}
+    >
+      Shop Now
+    </a>
+  </div>
+</section>     
     {/* About Section */}
 <section
   id="about"
