@@ -175,5 +175,5 @@ font-size:18px;
 
 .hero-btn:hover {
   transform: translateY(-3px);
-  box-shadow: 0 10px 25px rgba(255, 0, 110, 0.35);
+  box-shadow: 0 10px 10px rgba(255, 0, 110, 0.35);
 }
