@@ -28,86 +28,31 @@
           <a href="#contact">Contact</a>
         </div>
       </nav>
-       {/* Hero Section */}
-  <section
-  id="home"
-  style={{
-    position: "relative",
-    height: "600px",
-    overflow: "hidden",
-  }}
->
-  {/* Background Image */}
+       <section id="home" className="hero">
   <Image
     src="/hero-banner.png"
     alt="Hero Banner"
     fill
     priority
-    style={{
-      objectFit: "cover",
-    }}
+    className="hero-image"
   />
 
-  {/* Overlay */}
-  <div
-    style={{
-      position: "absolute",
-      inset: 0,
-      background: "rgba(0,0,0,0.35)",
-    }}
-  />
+  <div className="overlay"></div>
 
-  {/* Text */}
-  <div
-    style={{
-      position: "relative",
-      zIndex: 1,
-      height: "100%",
-      display: "flex",
-      flexDirection: "column",
-      justifyContent: "center",
-      alignItems: "flex-start",
-      marginLeft: "80px",
-      color: "white",
-    }}
-  >
-    <h1
-      style={{
-        fontSize: "56px",
-        marginBottom: "20px",
-      }}
-    >
-              Welcome to Chaturyas World
-    </h1>
+  <div className="hero-content">
+    <h1>Welcome to Chaturyas World</h1>
 
-    <p
-      style={{
-        fontSize: "22px",
-        maxWidth: "650px",
-        lineHeight: "1.8",
-      }}
-    >
+    <p>
       Your One-Stop Destination for Toys, Stationery,
       Fancy Items, Artificial Flowers,
       Gift Articles & Return Gifts.
     </p>
 
-    <a
-      href="#products"
-      style={{
-        marginTop: "30px",
-        background: "#ff4081",
-        color: "white",
-        padding: "15px 35px",
-        borderRadius: "30px",
-        textDecoration: "none",
-        fontWeight: "bold",
-      }}
-    >
+    <a href="#products" className="hero-btn">
       Shop Now
     </a>
   </div>
-</section>     
+</section>
     {/* About Section */}
 <section
   id="about"
