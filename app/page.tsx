@@ -29,13 +29,8 @@
         </div>
       </nav>
        <section id="home" className="hero">
-  <Image
-    src="/hero-banner.png"
-    alt="Hero Banner"
-    fill
-    priority
-    className="hero-image"
-  />
+
+  <div className="hero-bg"></div>
 
   <div className="overlay"></div>
 
@@ -52,6 +47,7 @@
       Shop Now
     </a>
   </div>
+
 </section>
     {/* About Section */}
 <section
