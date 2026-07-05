@@ -62,38 +62,26 @@ nav a:hover {
   color: #e91e63;
 }
 
-.hero {
-  height: 100vh;
-  background: linear-gradient(rgba(0,0,0,.15), rgba(0,0,0,.15)),
-              url('/hero.png');
-  background-size: cover;
-  background-position: center;
-  color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
+@media (max-width: 768px) {
+  .hero-content {
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+  }
 
-.hero h1 {
-  font-size: 52px;
-  margin-bottom: 20px;
-}
+  .hero-content h1 {
+    font-size: 42px;
+    line-height: 1.2;
+  }
 
-.hero {
-  height: 90vh;
-  background:
-    linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
-    url('/hero.png');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  .hero-content p {
+    font-size: 18px;
+    line-height: 1.6;
+  }
 
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  color: white;
+  .hero {
+    height: 500px;
+  }
 }
 
 .btn {
