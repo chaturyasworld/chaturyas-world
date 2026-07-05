@@ -91,7 +91,7 @@ nav a:hover {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-left: 80px;
+  margin-left: 80px;
   color: white;
 }
 
