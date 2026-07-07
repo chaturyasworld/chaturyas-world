@@ -93,20 +93,35 @@
 <section
   id="products"
   style={{
-    padding: "80px 20px",
-    background: "#f8f8f8",
+    padding: "90px 20px",
+    background: "linear-gradient(to bottom, #ffffff, #fff5f8)",
   }}
 >
   <h2
     style={{
       textAlign: "center",
-      fontSize: "38px",
-      color: "#ff4081",
-      marginBottom: "40px",
+      fontSize: "42px",
+      fontWeight: "700",
+      color: "#ff2d75",
+      marginBottom: "15px",
     }}
   >
     Our Products
   </h2>
+
+  <p
+    style={{
+      textAlign: "center",
+      color: "#666",
+      fontSize: "18px",
+      marginBottom: "50px",
+      maxWidth: "700px",
+      margin: "0 auto 50px",
+    }}
+  >
+    Discover our beautiful collection of gifts, toys, stationery, flowers and
+    unique accessories for every special occasion.
+  </p>
 
   <div
     style={{
@@ -127,33 +142,45 @@
         key={item.name}
         style={{
           background: "#fff",
-          borderRadius: "15px",
+          borderRadius: "18px",
           padding: "20px",
           textAlign: "center",
-          boxShadow: "0 4px 12px rgba(0,0,0,0.1)",
+          boxShadow: "0 8px 20px rgba(0,0,0,0.08)",
+          transition:"all 0.3s ease" ,
+          cursor: "pointer",
         }}
       >
         <Image
           src={item.image}
           alt={item.name}
-          width={180}
-          height={180}
+          width={220}
+          height={220}
           style={{
-            borderRadius: "10px",
+            borderRadius: "12px",
             objectFit: "cover",
+            width:"100%",
+            height:"220px",
           }}
         />
 
-        <h3 style={{ marginTop: "15px" }}>{item.name}</h3>
+        <h3 style={{ 
+              marginTop: "15px",
+              fontSize:"20px",
+              fontWeight:"#333",
+               }}
+               >
+                {item.name}
+                </h3>
 
         <button
           style={{
-            marginTop: "10px",
-            padding: "10px 20px",
-            background: "#ff4081",
+            marginTop: "15px",
+            padding: "12px 24px",
+            background: "#ff2d75",
             color: "#fff",
             border: "none",
-            borderRadius: "20px",
+            borderRadius: "30px",
+            fontWeight:"600",
             cursor: "pointer",
           }}
         >
