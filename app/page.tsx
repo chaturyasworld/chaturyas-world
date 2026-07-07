@@ -184,7 +184,7 @@
             cursor: "pointer",
           }}
         >
-          View Details
+          Visit Store
         </button>
       </div>
     ))}
