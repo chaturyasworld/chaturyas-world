@@ -215,6 +215,30 @@
       </div>
     ))}
   </div>
+</section> 
+<section id="location" style={{ padding: "80px 20px", textAlign: "center" }}>
+  <h2>📍 Visit Our Store</h2>
+
+  <iframe
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3870.600355101544!2d79.30248847486162!3d14.04168768638105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bb2d575d29b6c25%3A0x3e4d1aa2cf93e13f!2sChaturya&#39;s%20World!5e0!3m2!1sen!2sin!4v1783435681438!5m2!1sen!2sin"
+    width="100%"
+    height="400"
+    style={{
+      border: 0,
+      borderRadius: "15px",
+      width: "100%",
+      maxWidth: "1000px",
+    }}
+    loading="lazy"
+    referrerPolicy="strict-origin-when-cross-origin"
+    allowFullScreen
+  />
+
+  <p style={{ marginTop: "20px", fontSize: "18px" }}>
+    <strong>Chaturyas World</strong><br />
+    Mangampeta, Obulavaripalli,<br />
+    Tirupati, Andhra Pradesh - 516105
+  </p>
 </section>
  {/* Contact Section */}
 <section
