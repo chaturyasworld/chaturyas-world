@@ -291,16 +291,58 @@
   </div>
 </section>
   {/* Footer */}
-<footer
+   <footer
   style={{
     background: "#222",
     color: "#fff",
+    padding: "40px 20px",
     textAlign: "center",
-    padding: "20px",
+    marginTop: "50px",
   }}
 >
-  <p>© 2026 Chaturyas World. All Rights Reserved.</p>
-</footer> 
+  <h3
+    style={{
+      fontSize: "28px",
+      marginBottom: "10px",
+      color: "#FFD700",
+    }}
+  >
+    Chaturyas World
+  </h3>
+
+  <p style={{ margin: "8px 0" }}>
+    🎁 Fancy • Gifts • Toys • Stationery • Artificial Flowers
+  </p>
+
+  <p style={{ margin: "8px 0" }}>
+    📍 Mangampeta, Obulavaripalli,<br />
+    Tirupati, Andhra Pradesh - 516105
+  </p>
+
+  <p style={{ margin: "8px 0" }}>
+    📞 +91 XXXXXXXXXX
+  </p>
+
+  <p style={{ margin: "8px 0" }}>
+    📧 yourmail@gmail.com
+  </p>
+
+  <hr
+    style={{
+      margin: "25px auto",
+      width: "80%",
+      border: "1px solid rgba(255,255,255,0.2)",
+    }}
+  />
+
+  <p style={{ fontSize: "14px", color: "#ccc" }}>
+    © 2026 Chaturyas World. All Rights Reserved.
+  </p>
+
+  <p style={{ fontSize: "14px", color: "#aaa" }}>
+    Made with ❤️ for Happy Shopping
+  </p>
+</footer>
    {/* WhatsApp Floating Button */}
 <a
   href="https://wa.me/919505551266"
