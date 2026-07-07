@@ -53,42 +53,68 @@
 <section
   id="about"
   style={{
-    padding: "80px 20px",
-    background: "#ffffff",
+    padding: "90px 20px",
+    background: "#fff",
   }}
 >
   <div
     style={{
-      maxWidth: "900px",
+      maxWidth: "1200px",
       margin: "0 auto",
-      textAlign: "center",
+      display: "flex",
+      flexWrap: "wrap",
+      alignItems: "center",
+      gap: "50px",
     }}
   >
-    <h2
-      style={{
-        fontSize: "38px",
-        color: "#ff4081",
-        marginBottom: "20px",
-      }}
-    >
-      About Chaturyas World
-    </h2>
+    {/* Left Side Image */}
+    <div style={{ flex: "1", minWidth: "300px" }}>
+      <img
+        src="/about-store.jpg"
+        alt="Chaturyas World"
+        style={{
+          width: "100%",
+          borderRadius: "20px",
+          boxShadow: "0 10px 25px rgba(0,0,0,0.15)",
+        }}
+      />
+    </div>
 
-    <p
-      style={{
-        fontSize: "20px",
-        lineHeight: "1.8",
-        color: "#555",
-      }}
-    >
-      Welcome to Chaturyas World! We are your one-stop destination for
-      toys, stationery, fancy items, artificial flowers, gift articles,
-      keychains, return gifts and many more beautiful products. Our goal is
-      to provide quality products at affordable prices and make every special
-      occasion memorable.
-    </p>
+    {/* Right Side Content */}
+    <div style={{ flex: "1", minWidth: "300px" }}>
+      <h2
+        style={{
+          color: "#ff2d75",
+          fontSize: "40px",
+          marginBottom: "20px",
+        }}
+      >
+        About Chaturyas World
+      </h2>
+
+      <p
+        style={{
+          color: "#555",
+          fontSize: "18px",
+          lineHeight: "1.8",
+        }}
+      >
+        Welcome to <strong>Chaturyas World</strong>, your one-stop destination
+        for beautiful gifts, toys, stationery, artificial flowers, and unique
+        accessories. We are committed to bringing happiness through quality
+        products, affordable prices, and friendly customer service.
+      </p>
+
+      <div style={{ marginTop: "30px" }}>
+        <p>🎁 Premium Gift Collection</p>
+        <p>🧸 Toys & Teddy Bears</p>
+        <p>📚 Stationery Items</p>
+        <p>🌸 Artificial Flowers</p>
+        <p>😊 Friendly Customer Service</p>
+      </div>
+    </div>
   </div>
-</section> 
+</section>
      {/* Products Section */}
 <section
   id="products"
