@@ -216,43 +216,56 @@
     ))}
   </div>
 </section>
-  {/* Contact Section */}
+ {/* Contact Section */}
 <section
   id="contact"
   style={{
     padding: "80px 20px",
-    background: "#ffffff",
-    textAlign: "center",
+    background: "#fff5f8",
   }}
 >
   <h2
     style={{
-      fontSize: "38px",
-      color: "#ff4081",
-      marginBottom: "20px",
+      textAlign: "center",
+      color: "#ff2d75",
+      fontSize: "40px",
+      marginBottom: "40px",
     }}
   >
     Contact Us
   </h2>
 
-  <p style={{ fontSize: "18px", lineHeight: "1.8" }}>
-    📍 Chaturyas World
-    <br />
-    Fancy & Gift Store
-  </p>
+  <div
+    style={{
+      maxWidth: "900px",
+      margin: "0 auto",
+      background: "#fff",
+      borderRadius: "20px",
+      padding: "40px",
+      boxShadow: "0 10px 25px rgba(0,0,0,0.08)",
+      lineHeight: "2",
+    }}
+  >
+    <h3 style={{ color: "#333" }}>📍 Shop Address</h3>
+    <p>
+      Chaturyas World <br />
+      3/96, Street No 3, <br />
+      Mangampeta, Tirupati - 516105
+    </p>
 
-  <p style={{ fontSize: "18px" }}>
-    📞 +91 9550107497
-  </p>
+    <h3 style={{ color: "#333", marginTop: "25px" }}>📞 Phone</h3>
+    <p>+91 9550107497</p>
 
-  <p style={{ fontSize: "18px" }}>
-    📧 chaturyasworld0608@gmail.com
-  </p>
+    <h3 style={{ color: "#333", marginTop: "25px" }}>📧 Email</h3>
+    <p>chaturyasworld0608@gmail.com</p>
 
-  <p style={{ fontSize: "18px" }}>
-    🕒 Open: 7:00 AM – 9:00 PM
-  </p>
-</section> 
+    <h3 style={{ color: "#333", marginTop: "25px" }}>🕒 Working Hours</h3>
+    <p>
+      Monday - Sunday <br />
+      7:00 AM – 9:00 PM
+    </p>
+  </div>
+</section>
   {/* Footer */}
 <footer
   style={{
