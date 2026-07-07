@@ -288,7 +288,23 @@
       Monday - Sunday <br />
       7:00 AM – 9:00 PM
     </p>
-  </div>
+  </div> 
+  <div
+  style={{
+    display: "flex",
+    justifyContent: "center",
+    gap: "20px",
+    marginTop: "30px",
+  }}
+>
+  <a href="https://instagram.com/chaturyasworld_0608" target="_blank">
+    📷 Instagram
+  </a>
+
+  <a href="https://wa.me/919505551266" target="_blank">
+    💬 WhatsApp
+  </a>
+</div>
 </section>
   {/* Footer */}
    <footer
@@ -320,11 +336,11 @@
   </p>
 
   <p style={{ margin: "8px 0" }}>
-    📞 +91 XXXXXXXXXX
+    📞 +91 9505551266
   </p>
 
   <p style={{ margin: "8px 0" }}>
-    📧 yourmail@gmail.com
+    📧 chaturyasworld0608@gmail.com
   </p>
 
   <hr
