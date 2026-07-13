@@ -23,9 +23,9 @@
 
         <div style={{ display: "flex", gap: "20px" }}>
           <a href="#home">Home</a>
+          <a href="#gallery">Gallery</a>
           <a href="#about">About</a>
           <a href="#products">Products</a>
-          <a href="#gallery">Gallery</a>
           <a href="#contact">Contact</a>
         </div>
       </nav>
@@ -48,9 +48,8 @@
       Shop Now
     </a>
   </div>
-
-</section> 
-  <section
+</section>
+   <section
   id="gallery"
   style={{
     padding: "60px 20px",
@@ -75,7 +74,7 @@
       fontSize: "1rem",
     }}
   >
-    Explore some beautiful gifts and fancy collections available at Chaturya's World.
+    Explore some beautiful gifts and fancy collections available at Chaturya&apos;s World.
   </p>
 
   <div
@@ -103,7 +102,7 @@
           boxShadow: "0 4px 12px rgba(0,0,0,0.15)",
         }}
       >
-        <img
+        <Image
           src={img}
           alt={`Gallery ${index + 1}`}
           style={{
@@ -143,13 +142,15 @@
     }}
   >
     {/* Left Side Image */}
-    <div 
-    style={{ flex: "1", minWidth: "300px" }}>
-      <img
+    <div style={{ flex: "1", minWidth: "300px" }}>
+      <Image
         src="/about-store.jpg"
         alt="Chaturyas World"
+        width={800}
+        height={600}
         style={{
           width: "100%",
+          height: "auto",
           borderRadius: "20px",
           boxShadow: "0 10px 25px rgba(0,0,0,0.15)",
         }}
@@ -292,7 +293,6 @@
     ))}
   </div>
 </section> 
-
 <section id="location" style={{ padding: "80px 20px", textAlign: "center" }}>
   <h2>📍 Visit Our Store</h2>
 
