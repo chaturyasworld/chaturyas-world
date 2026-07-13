@@ -74,7 +74,7 @@
       fontSize: "1rem",
     }}
   >
-    Explore some beautiful gifts and fancy collections available at Chaturya&apos;s World.
+    Explore some beautiful gifts and fancy collections available at Chaturya World.
   </p>
 
   <div
