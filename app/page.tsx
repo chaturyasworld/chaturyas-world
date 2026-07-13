@@ -25,6 +25,7 @@
           <a href="#home">Home</a>
           <a href="#about">About</a>
           <a href="#products">Products</a>
+          <a href="#gallery">Gallery</a>
           <a href="#contact">Contact</a>
         </div>
       </nav>
@@ -48,6 +49,80 @@
     </a>
   </div>
 
+</section> 
+  <section
+  id="gallery"
+  style={{
+    padding: "60px 20px",
+    background: "#f9f9f9",
+    textAlign: "center",
+  }}
+>
+  <h2
+    style={{
+      fontSize: "2rem",
+      color: "#ff4081",
+      marginBottom: "10px",
+    }}
+  >
+    Our Gallery
+  </h2>
+
+  <p
+    style={{
+      color: "#666",
+      marginBottom: "40px",
+      fontSize: "1rem",
+    }}
+  >
+    Explore some beautiful gifts and fancy collections available at Chaturya's World.
+  </p>
+
+  <div
+    style={{
+      display: "grid",
+      gridTemplateColumns: "repeat(auto-fit, minmax(250px, 1fr))",
+      gap: "20px",
+      maxWidth: "1200px",
+      margin: "auto",
+    }}
+  >
+    {[
+      "/gallery/gallery1.jpg",
+      "/gallery/gallery2.jpg",
+      "/gallery/gallery3.jpg",
+      "/gallery/gallery4.jpg",
+      "/gallery/gallery5.jpg",
+      "/gallery/gallery6.jpg",
+    ].map((img, index) => (
+      <div
+        key={index}
+        style={{
+          overflow: "hidden",
+          borderRadius: "15px",
+          boxShadow: "0 4px 12px rgba(0,0,0,0.15)",
+        }}
+      >
+        <img
+          src={img}
+          alt={`Gallery ${index + 1}`}
+          style={{
+            width: "100%",
+            height: "250px",
+            objectFit: "cover",
+            transition: "0.4s",
+            cursor: "pointer",
+          }}
+          onMouseOver={(e) =>
+            (e.currentTarget.style.transform = "scale(1.08)")
+          }
+          onMouseOut={(e) =>
+            (e.currentTarget.style.transform = "scale(1)")
+          }
+        />
+      </div>
+    ))}
+  </div>
 </section>
     {/* About Section */}
 <section
