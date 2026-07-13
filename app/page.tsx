@@ -69,7 +69,8 @@
     }}
   >
     {/* Left Side Image */}
-    <div style={{ flex: "1", minWidth: "300px" }}>
+    <div 
+    style={{ flex: "1", minWidth: "300px" }}>
       <img
         src="/about-store.jpg"
         alt="Chaturyas World"
