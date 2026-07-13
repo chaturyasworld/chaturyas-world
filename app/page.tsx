@@ -112,12 +112,7 @@
             transition: "0.4s",
             cursor: "pointer",
           }}
-          onMouseOver={(e) =>
-            (e.currentTarget.style.transform = "scale(1.08)")
-          }
-          onMouseOut={(e) =>
-            (e.currentTarget.style.transform = "scale(1)")
-          }
+          
         />
       </div>
     ))}
