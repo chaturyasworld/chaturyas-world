@@ -190,3 +190,39 @@ justify-content:center;
   background: #e6005c;
   transform: translateY(-2px);
 }
+.trending-bar {
+  width: 100%;
+  overflow: hidden;
+  background: linear-gradient(90deg, #ff4081, #ff9800);
+  color: white;
+  padding: 12px 0;
+  white-space: nowrap;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.trending-track {
+  display: inline-block;
+  padding-left: 100%;
+  animation: scroll-left 18s linear infinite;
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.trending-bar:hover .trending-track {
+  animation-play-state: paused;
+}
+
+@media (max-width: 768px) {
+  .trending-bar {
+    font-size: 15px;
+    padding: 10px 0;
+  }
+}

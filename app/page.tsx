@@ -48,6 +48,19 @@
       Shop Now
     </a>
   </div>
+</section> 
+<section className="trending-bar">
+  <div className="trending-track">
+    🔥 Trending Items &nbsp; | &nbsp;
+    🧸 Teddy Bears &nbsp; | &nbsp;
+    🎁 Gift Items &nbsp; | &nbsp;
+    💐 Artificial Flowers &nbsp; | &nbsp;
+    ✏️ Stationery &nbsp; | &nbsp;
+    🎈 Birthday Decorations &nbsp; | &nbsp;
+    💍 Fancy Items &nbsp; | &nbsp;
+    🎀 Return Gifts &nbsp; | &nbsp;
+    ❤️ New Arrivals Every Week
+  </div>
 </section>
    <section
   id="gallery"
