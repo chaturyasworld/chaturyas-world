@@ -94,17 +94,28 @@
       "/gallery/gallery5.png",
       "/gallery/gallery6.png",
     ].map((img, index) => (
-      <Image
-        key={index}
-        src={img}
-        alt={`Gallery ${index + 1}`}
-        style={{
-          width: "100%",
-          height: "250px",
-          objectFit: "cover",
-          borderRadius: "15px",
-        }}
-      />
+      <div key={index} style={{ display: 'flex', flexDirection: 'column' }}>
+        <Image
+          src={img}
+          alt={`Gallery ${index + 1}`}
+          style={{
+            width: "100%",
+            height: "250px",
+            objectFit: "cover",
+            borderRadius: "15px",
+          }}
+        />
+        <p
+          style={{
+            fontSize: "16px",
+            color: "#28a745",
+            fontWeight: "bold",
+            marginTop: "10px",
+          }}
+        >
+          ✅ Available in Store
+        </p>
+      </div>
     ))}
   </div>
 </section>
