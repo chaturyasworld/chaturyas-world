@@ -103,7 +103,7 @@
         }}
       >
         <Image
-          src={img}
+          src="/gallery/gallery1.png"
           alt={`Gallery ${index + 1}`}
           style={{
             width: "100%",
