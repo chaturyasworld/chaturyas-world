@@ -94,31 +94,21 @@
       "/gallery/gallery5.png",
       "/gallery/gallery6.png",
     ].map((img, index) => (
-      <image
+      <Image
         key={index}
+        src={img}
+        alt={`Gallery ${index + 1}`}
         style={{
-          overflow: "hidden",
+          width: "100%",
+          height: "250px",
+          objectFit: "cover",
           borderRadius: "15px",
-          boxShadow: "0 4px 12px rgba(0,0,0,0.15)",
         }}
-      >
-        <Image
-          src={img}
-          alt={`Gallery ${index + 1}`}
-          style={{
-            width: "100%",
-            height: "250px",
-            objectFit: "cover",
-            transition: "0.4s",
-            cursor: "pointer",
-          }}
-          
-        />
-      </image>
+      />
     ))}
   </div>
 </section>
-    {/* About Section */}
+   {/* About Section */}
 <section
   id="about"
   style={{
