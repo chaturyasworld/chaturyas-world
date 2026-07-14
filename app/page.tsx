@@ -94,7 +94,7 @@
       "/gallery/gallery5.png",
       "/gallery/gallery6.png",
     ].map((img, index) => (
-      <div
+      <image
         key={index}
         style={{
           overflow: "hidden",
@@ -114,7 +114,7 @@
           }}
           
         />
-      </div>
+      </image>
     ))}
   </div>
 </section>
