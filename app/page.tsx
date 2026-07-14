@@ -49,17 +49,75 @@
     </a>
   </div>
 </section> 
-<section className="trending-bar">
-  <div className="trending-track">
-    🔥 Trending Items &nbsp; | &nbsp;
-    🧸 Teddy Bears &nbsp; | &nbsp;
-    🎁 Gift Items &nbsp; | &nbsp;
-    💐 Artificial Flowers &nbsp; | &nbsp;
-    ✏️ Stationery &nbsp; | &nbsp;
-    🎈 Birthday Decorations &nbsp; | &nbsp;
-    💍 Fancy Items &nbsp; | &nbsp;
-    🎀 Return Gifts &nbsp; | &nbsp;
-    ❤️ New Arrivals Every Week
+<section className="trending-slider">
+  <h2>🔥 Trending Items</h2>
+
+  <div className="slider">
+    <div className="slide-track">
+
+      <div className="slide">
+        <Image src="/gallery/gallery1.jpg" alt="Teddy Bear" width={240} height={160} />
+        <p>Teddy Bear</p>
+      </div>
+
+      <div className="slide">
+        <Image src="/gallery/gallery2.jpg" alt="Gift Item" width={240} height={160} />
+        <p>Gift Item</p>
+      </div>
+
+      <div className="slide">
+        <Image src="/gallery/gallery3.jpg" alt="Stationery" width={240} height={160} />
+        <p>Stationery</p>
+      </div>
+
+      <div className="slide">
+        <Image src="/gallery/gallery4.jpg" alt="Artificial Flower" width={240} height={160} />
+        <p>Flowers</p>
+      </div>
+
+      <div className="slide">
+        <Image src="/gallery/gallery5.jpg" alt="Fancy Item" width={240} height={160} />
+        <p>Fancy Item</p>
+      </div>
+
+      <div className="slide">
+        <Image src="/gallery/gallery6.jpg" alt="Return Gifts" width={240} height={160} />
+        <p>Return Gifts</p>
+      </div>
+
+      {/* Repeat for Infinite Scroll */}
+
+      <div className="slide">
+        <Image src="/gallery/gallery1.jpg" alt="Teddy Bear" width={240} height={160} />
+        <p>Teddy Bear</p>
+      </div>
+
+      <div className="slide">
+        <Image src="/gallery/gallery2.jpg" alt="Gift Item" width={240} height={160} />
+        <p>Gift Item</p>
+      </div>
+
+      <div className="slide">
+        <Image src="/gallery/gallery3.jpg" alt="Stationery" width={240} height={160} />
+        <p>Stationery</p>
+      </div>
+
+      <div className="slide">
+        <Image src="/gallery/gallery4.jpg" alt="Artificial Flower" width={240} height={160} />
+        <p>Flowers</p>
+      </div>
+
+      <div className="slide">
+        <Image src="/gallery/gallery5.jpg" alt="Fancy Item" width={240} height={160} />
+        <p>Fancy Item</p>
+      </div>
+
+      <div className="slide">
+        <Image src="/gallery/gallery6.jpg" alt="Return Gifts" width={240} height={160} />
+        <p>Return Gifts</p>
+      </div>
+
+    </div>
   </div>
 </section>
    <section
