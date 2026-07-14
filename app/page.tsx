@@ -87,12 +87,12 @@
     }}
   >
     {[
-      "/gallery/gallery1.jpg",
-      "/gallery/gallery2.jpg",
-      "/gallery/gallery3.jpg",
-      "/gallery/gallery4.jpg",
-      "/gallery/gallery5.jpg",
-      "/gallery/gallery6.jpg",
+      "/gallery/gallery1.png",
+      "/gallery/gallery2.png",
+      "/gallery/gallery3.png",
+      "/gallery/gallery4.png",
+      "/gallery/gallery5.png",
+      "/gallery/gallery6.png",
     ].map((img, index) => (
       <div
         key={index}
@@ -139,7 +139,7 @@
     {/* Left Side Image */}
     <div style={{ flex: "1", minWidth: "300px" }}>
       <Image
-        src="/about-store.jpg"
+        src="/about-store.png"
         alt="Chaturyas World"
         width={800}
         height={600}
